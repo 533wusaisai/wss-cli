@@ -1,11 +1,11 @@
 {
-  "name": "@wss-test/core",
+  "name": "@wss-test/utils",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "wusaisai <wusaisai335@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,10 +14,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "node ./__tests__/core.test.js"
-  },
-  "dependencies": {
-    "@wss-test/utils": "^1.0.0"
+    "test": "node ./__tests__/utils.test.js"
   },
   "publishConfig": {
     "access": "public"

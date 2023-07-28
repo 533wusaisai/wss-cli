@@ -1,18 +1,19 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "wss-test",
+  "version": "1.0.0",
+  "description": "wss-test",
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "lerna": "^7.1.1"
-  },
-  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "lerna": "^7.1.4"
+  },
+  "dependencies": {}
 }
